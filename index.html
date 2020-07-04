@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+
+    <form action="/my-handling-form-page" method="post">
+        <div>
+            <label for="name">Name<br></label>
+            <input id="name" type="text" placeholder="Enter your Name"/>
+        </div>
+
+        <div>
+            <label for="email">Email<br></label>
+            <input id="email" type="text" placeholder="Enter your Email"/>
+        </div>
+
+        <div>
+            <label for="age">Age(optional)<br></label>
+            <input id="age" type="number" placeholder="Age"/>
+        </div>
+
+            <label for="role">Which option best describes your current role?<br></label>
+            <select name="role">
+                <option value="" disabled selected>Select an option</option>
+                <option value="chanllenges">Chanllenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="opensource">Open Source</option>
+            </select>
+        
+        <div>
+            <label for="improved"> What would you like to see improved? (Check all that apply)<br></label>
+            <label><input type="checkbox" name="improved" value="Front-end Projects">Front-end Projects<br></label>
+            <label><input type="checkbox" name="improved" value="Back-end Projects">Back-end Projects<br></label>
+            <label><input type="checkbox" name="improved" value="Data Visualization">Data Visualization<br></label>
+            <label><input type="checkbox" name="improved" value="Challenges">Challenges<br></label>
+            <label><input type="checkbox" name="improved" value="Open Source Community">Open Source Community<br></label>
+            <label><input type="checkbox" name="improved" value="Gitter help rooms">Gitter help rooms<br></label>
+            <label><input type="checkbox" name="improved" value="Videos">Videos<br></label>
+            <label><input type="checkbox" name="improved" value="City Meetups">City Meetups<br></label>
+            <label><input type="checkbox" name="improved" value="Wiki">Wiki<br></label>
+            <label><input type="checkbox" name="improved" value="Forum">Forum<br></label>
+            <label><input type="checkbox" name="improved" value="Additional Courses">Additional Courses<br></label>
+        </div>
+        <div>
+        <label>Any comments or suggestions?<br></label>
+        <textarea placeholder="Enter your comments here..."></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
