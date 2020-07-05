@@ -4,6 +4,10 @@ body{
     text-align: center;
     position: relative;
     z-index: 1;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    color: white;
+    font-size: 20px;
 }
 
 body::before{
@@ -11,11 +15,38 @@ body::before{
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
-    background-image: linear-gradient(rgba(101,101,175,0.5),rgba(101,101,175,0.5)),url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+    background-image: linear-gradient(rgba(56,56,132,0.8),rgba(56,56,132,0.8)),url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
     z-index: -1;
+}
+
+form{
+    text-align: left;
+    border-radius: 5px;
+    width: fit-content;
+    background: linear-gradient(rgba(38,38,66,0.8),rgba(38,38,66,0.8));
+    padding:20px;
+    
+}
+label{
+    display: flex;
+    
+}
+
+.form-input, select, textarea {
+    width:100%;
+    font-size: 15px;
+}
+
+.button{
+    display: blcok;
+    width: 100%;
+    background: #31A55A;
+    color: white;
+    border: 0px;
+    font-size: 15px;
 }
