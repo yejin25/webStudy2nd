@@ -10,7 +10,8 @@ body::before{
     content: '';
     background-repeat:no-repeat;
     background-position:center;
-    background: linear-gradient(rgba(101,101,175,0.5),rgba(101,101,175,0.5)),url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+    background-size: cover;
+    background-image: linear-gradient(rgba(101,101,175,0.5),rgba(101,101,175,0.5)),url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
     height: 100%;
     width: 100%;
     top: 0;
