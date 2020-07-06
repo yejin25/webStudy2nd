@@ -14,22 +14,22 @@
     <form action="/my-handling-form-page" method="post">
         <div>
             <label for="name">Name</label>
-            <input id="name" class = "form-input" type="text" placeholder="Enter your Name"/>
+            <input id="name" class = "form-input" type="text" placeholder="Enter your Name" required/>
         </div>
 
         <div>
             <label for="email">Email</label>
-            <input id="email" class = "form-input" type="text" placeholder="Enter your Email"/>
+            <input id="email" class = "form-input" type="text" placeholder="Enter your Email" required/>
         </div>
 
         <div>
             <label for="age">Age(optional)</label>
-            <input id="age" class = "form-input" type="number" placeholder="Age" min="0" max="100"/>
+            <input id="age" class = "form-input" type="number" placeholder="Age" min="0" max="100"required/>
         </div>
 
         <div>
             <label for="role">Which option best describes your current role?</label>
-            <select name="role" class = "form-input">
+            <select name="role" class = "form-input" required>
                 <option value="" disabled selected>Select current role</option>
                 <option value="Student">Student</option>
                 <option value="Full Time Job">Full Time Job</option>
@@ -48,7 +48,7 @@
 
             <div>
             <label for="favorite">What is your favorite feature of freeCodeCamp?</label>
-            <select name="favorite" class = "form-input">
+            <select name="favorite" class = "form-input" required>
                 <option value="" disabled selected>Select an option</option>
                 <option value="chanllenges">Chanllenges</option>
                 <option value="projects">Projects</option>
